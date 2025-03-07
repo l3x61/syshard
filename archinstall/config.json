@@ -1,0 +1,184 @@
+{
+    "additional-repositories": [],
+    "archinstall-language": "English",
+    "audio_config": null,
+    "bootloader": "Grub",
+    "config_version": "3.0.2",
+    "disk_config": {
+        "config_type": "default_layout",
+        "device_modifications": [
+            {
+                "device": "/dev/sda",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": ["boot"],
+                        "fs_type": "fat32",
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "80940b6f-c02f-40ed-85df-0b90b18b4515",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "GiB",
+                            "value": 1
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "MiB",
+                            "value": 3
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [],
+                        "fs_type": "ext4",
+                        "mount_options": [],
+                        "mountpoint": "/",
+                        "obj_id": "2cb9fdfb-06cd-4acb-b163-457dd3fa285f",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 67642589184
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 1076887552
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": true
+            }
+        ]
+    },
+    "disk_encryption": null,
+    "hostname": "momoni",
+    "kernels": ["linux-hardened"],
+    "locale_config": {
+        "kb_layout": "de-latin1-nodeadkeys",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "mirror_config": {
+        "custom_mirrors": [],
+        "mirror_regions": {
+            "Austria": [
+                "https://at.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://at.arch.mirror.kescher.at/$repo/os/$arch",
+                "https://mirror.alwyzon.net/archlinux/$repo/os/$arch",
+                "https://at.arch.niranjan.co/$repo/os/$arch",
+                "https://at-vie.soulharsh007.dev/archlinux/$repo/os/$arch"
+            ],
+            "Finland": [
+                "https://mirror.srv.fail/archlinux/$repo/os/$arch",
+                "https://mirror.wuki.li/archlinux/$repo/os/$arch",
+                "https://arch.yhtez.xyz/$repo/os/$arch",
+                "https://mirror1.sl-chat.ru/archlinux/$repo/os/$arch",
+                "https://mirror.5i.fi/archlinux/$repo/os/$arch",
+                "https://archlinux.doridian.net/$repo/os/$arch"
+            ],
+            "Germany": [
+                "https://mirror.selfnet.de/archlinux/$repo/os/$arch",
+                "https://ftp.halifax.rwth-aachen.de/archlinux/$repo/os/$arch",
+                "https://mirror.fra10.de.leaseweb.net/archlinux/$repo/os/$arch",
+                "https://mirrors.n-ix.net/archlinux/$repo/os/$arch",
+                "https://mirror.netcologne.de/archlinux/$repo/os/$arch",
+                "https://ftp.fau.de/archlinux/$repo/os/$arch",
+                "https://mirror.23m.com/archlinux/$repo/os/$arch",
+                "https://mirror.metalgamer.eu/archlinux/$repo/os/$arch",
+                "https://mirrors.niyawe.de/archlinux/$repo/os/$arch",
+                "https://mirror.pseudoform.org/$repo/os/$arch",
+                "https://arch.jensgutermuth.de/$repo/os/$arch",
+                "https://mirror.ubrco.de/archlinux/$repo/os/$arch",
+                "https://archlinux.thaller.ws/$repo/os/$arch",
+                "https://de.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://mirror.bethselamin.de/$repo/os/$arch",
+                "https://packages.oth-regensburg.de/archlinux/$repo/os/$arch",
+                "https://dist-mirror.fem.tu-ilmenau.de/archlinux/$repo/os/$arch",
+                "https://arch.unixpeople.org/$repo/os/$arch",
+                "https://mirror.kumi.systems/archlinux/$repo/os/$arch",
+                "https://arch.phinau.de/$repo/os/$arch",
+                "https://mirror.dogado.de/archlinux/$repo/os/$arch",
+                "https://pkg.fef.moe/archlinux/$repo/os/$arch",
+                "https://ftp.agdsn.de/pub/mirrors/archlinux/$repo/os/$arch",
+                "https://mirrors.xtom.de/archlinux/$repo/os/$arch",
+                "https://mirror.moson.org/arch/$repo/os/$arch",
+                "https://mirror.pagenotfound.de/archlinux/$repo/os/$arch",
+                "https://de.arch.mirror.kescher.at/$repo/os/$arch",
+                "https://archlinux.homeinfo.de/$repo/os/$arch",
+                "https://os.codefionn.eu/archlinux/$repo/os/$arch",
+                "https://mirrors.janbruckner.de/archlinux/$repo/os/$arch",
+                "https://mirror.informatik.tu-freiberg.de/arch/$repo/os/$arch",
+                "https://berlin.mirror.pkgbuild.com/$repo/os/$arch",
+                "https://mirror.cmt.de/archlinux/$repo/os/$arch",
+                "https://mirror.sunred.org/archlinux/$repo/os/$arch",
+                "https://mirror.lcarilla.de/archlinux/$repo/os/$arch",
+                "https://archlinux.richard-neumann.de/$repo/os/$arch",
+                "https://mirror.hugo-betrugo.de/archlinux/$repo/os/$arch",
+                "https://arch.kurdy.org/$repo/os/$arch",
+                "https://de.arch.niranjan.co/$repo/os/$arch",
+                "https://files.hadiko.de/pub/dists/arch/$repo/os/$arch",
+                "https://de-nue.soulharsh007.dev/archlinux/$repo/os/$arch",
+                "https://de.repo.c48.uk/arch/$repo/os/$arch",
+                "https://mirror.as20647.net/archlinux/$repo/os/$arch",
+                "https://mirror.ipb.de/archlinux/$repo/os/$arch",
+                "https://mirrors.aminvakil.com/archlinux/$repo/os/$arch",
+                "https://mirrors.purring.online/arch/$repo/os/$arch"
+            ],
+            "Switzerland": [
+                "https://mirror.puzzle.ch/archlinux/$repo/os/$arch",
+                "https://pkg.adfinis.com/archlinux/$repo/os/$arch",
+                "https://ch.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://mirror.ungleich.ch/mirror/packages/archlinux/$repo/os/$arch",
+                "https://mirror.init7.net/archlinux/$repo/os/$arch",
+                "https://theswissbay.ch/archlinux/$repo/os/$arch",
+                "https://mirror.metanet.ch/archlinux/$repo/os/$arch",
+                "https://mirror.worldhotspot.org/archlinux/$repo/os/$arch",
+                "https://pkg.adfinis-on-exoscale.ch/archlinux-pkgbuild/$repo/os/$arch",
+                "https://pkg.adfinis-on-exoscale.ch/archlinux/$repo/os/$arch"
+            ]
+        }
+    },
+    "network_config": {
+        "type": "iso"
+    },
+    "ntp": true,
+    "packages": ["git", "neovim", "nodejs", "npm", "tmux"],
+    "parallel downloads": 4,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {
+                "Nginx": {},
+                "Postgresql": {},
+                "sshd": {}
+            },
+            "details": ["Nginx", "Postgresql", "sshd"],
+            "main": "Server"
+        }
+    },
+    "save_config": null,
+    "swap": true,
+    "timezone": "UTC",
+    "uki": false,
+    "version": "3.0.2"
+}
